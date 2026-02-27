@@ -1,0 +1,16 @@
+{
+  "name": "feishu-sheet-proxy",
+  "version": "1.0.0",
+  "description": "Proxy server for Feishu Sheet API to solve CORS issues",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vercel dev",
+    "deploy": "vercel deploy"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.12"
+  },
+  "devDependencies": {
+    "vercel": "^32.5.2"
+  }
+}
